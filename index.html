@@ -634,4 +634,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C25P1:END-->
+<!--WY-C25P2:BEGIN-->
+<style id="wy-c25p2-css">
+.c25p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c25p2-fabbox.show{display:block;}
+.c25p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c25p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c25p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c25p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c25p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c25p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c25p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c25p2-modal.open{display:flex;}
+.c25p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c25p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c25p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c25p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c25p2-close:hover{background:#e3d5b8;}
+.c25p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c25p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c25p2-tbl th,.c25p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c25p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c25p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c25p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c25p2-tbl b{color:#8b2500;}
+.c25p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c25p2-note b{color:#8b2500;}
+@media(max-width:900px){.c25p2-fabbox{right:14px;}.c25p2-tbl{font-size:11.5px;}.c25p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c25p2-fabbox" id="c25p2Box"><button class="c25p2-btn" id="c25p2Btn" type="button" aria-label="開啟全景總表"><span class="c25p2-ic">▦</span><span class="c25p2-ls"><span class="c25p2-l1">本品 · 體與用</span><span class="c25p2-l2">蓄於內為力 · 發於外為無所畏</span></span></button></div><div class="c25p2-modal" id="c25p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c25p2-card"><button class="c25p2-close" id="c25p2Close" type="button" aria-label="關閉">×</button><h3>卷二十五·第二品 釋初品中四無所畏義 · 全景總表</h3><p class="sub">卷二十五・第二品｜體用範疇・十八重對比・轉輪王七寶良醫喻・空體緣用・五種所畏根本</p><table class="c25p2-tbl"><caption>一、體用範疇的確立（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心範疇</td><td>十力與四無所畏皆以智慧為本，分立二門只因觀照視角不同：向內蓄積名「力」，向外發用名「無所畏」</td></tr><tr><td>十八重對比</td><td>論主以十八重對比逐面申明「蓄於內為力、發於外為無畏」的分際</td></tr><tr><td>轉輪王七寶喻</td><td>以轉輪王七寶喻力之內在儲備，坐實「力」的蓄積義</td></tr><tr><td>良醫藥方喻</td><td>以良醫藥方喻無畏之外在應用，坐實「無畏」的發用義</td></tr><tr><td>師子吼氣象</td><td>內猛健、外無畏——內在的力與外在的無畏，共同寫出師子吼的氣象</td></tr><tr><td>空體緣用終判</td><td>以中觀眼光統攝：空為力之體（內攝，體證實相）、緣起為無畏之用（外顯，隨緣赴感）——力即是無畏，一智蓄於十處名力、發於四處名無畏</td></tr></tbody></table><table class="c25p2-tbl"><caption>二、無所畏四項現量內涵（名相拆解）</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>得無所疑</td><td>認知的絕對清晰——對一切法無有疑惑</td></tr><tr><td>智慧不却不沒</td><td>心智的堅固不退——智慧遇境不退轉、不隱沒</td></tr><tr><td>衣毛不豎</td><td>身心反應的寂靜——生理與情緒層面毫無怖畏之相</td></tr><tr><td>如說即作</td><td>言行的高度一致——在在法中所說即所行，言行完全相符</td></tr><tr><td>共同根源</td><td>四者共同的根源是「無我」——唯有無我，方能認知清晰、心智堅固、身心寂靜、言行一致</td></tr><tr><td>事證驗證</td><td>論主以佛降伏外道論議師、攝化聲聞帝王婆羅門大龍惡人、降伏魔軍、於諸天大眾中說法等事跡，現量驗證此無所畏之真實不虛</td></tr></tbody></table><table class="c25p2-tbl"><caption>三、五種所畏根本與終極心法（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>五種所畏根本</td><td>世人於大眾中怖畏，不外出身（弊家生）、生處（弊生處）、色身（惡色）、威儀、語言（麁惡語）五項自我懷疑</td></tr><tr><td>佛五項俱拔</td><td>佛生王種、生中國、金色光潤、威儀具足、語勝鳥音——五項所畏的根本俱已拔除，故縱論世間功德亦無人能及</td></tr><tr><td>舉輕明重</td><td>連世間法都尚且無畏，何況出世間法——由世間無畏推出出世無畏的邏輯</td></tr><tr><td>三重清淨語言</td><td>佛語具「雜說與一味、三重清淨」之智慧，語言本身即無畏之顯現</td></tr><tr><td>終極口訣</td><td>以「空體緣用」四字總持全品——力與無畏本一體，唯視角內外而異名</td></tr><tr><td>行者二事</td><td>累積智慧、拔除我執——智斷具足，方能轉法輪，此為修練無畏的具體下手處</td></tr></tbody></table><p class="c25p2-note">第二品把「力」與「無畏」的名相分判推向究竟：十八重對比與兩喻先在世俗諦上釐清「蓄於內為力、發於外為用」的分際；再以中觀眼光統攝為「<b>空體緣用</b>」——空是力之體、緣起是無畏之用，體用不二，力即是無畏。從五種所畏根本的逐一拔除，到累積智慧、拔除我執的終極心法，全品收束於「一智蓄於十處名力，發於四處名無所畏」的體用不二之理。</p></div></div>
+<script id="wy-c25p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c25p2Btn"),BOX=document.getElementById("c25p2Box"),MODAL=document.getElementById("c25p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c25p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C25P2:END-->
 </body></html>
