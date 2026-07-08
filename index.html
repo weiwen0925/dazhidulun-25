@@ -687,4 +687,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C25P2:END-->
+<!--WY-C25P3:BEGIN-->
+<style id="wy-c25p3-css">
+.c25p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c25p3-fabbox.show{display:block;}
+.c25p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c25p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c25p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c25p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c25p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c25p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c25p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c25p3-modal.open{display:flex;}
+.c25p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c25p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c25p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c25p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c25p3-close:hover{background:#e3d5b8;}
+.c25p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c25p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c25p3-tbl th,.c25p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c25p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c25p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c25p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c25p3-tbl b{color:#8b2500;}
+.c25p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c25p3-note b{color:#8b2500;}
+@media(max-width:900px){.c25p3-fabbox{right:14px;}.c25p3-tbl{font-size:11.5px;}.c25p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c25p3-fabbox" id="c25p3Box"><button class="c25p3-btn" id="c25p3Btn" type="button" aria-label="開啟全景總表"><span class="c25p3-ic">▦</span><span class="c25p3-ls"><span class="c25p3-l1">本品 · 一智十力四無畏</span><span class="c25p3-l2">體用三層 · 十力精確映射四無畏</span></span></button></div><div class="c25p3-modal" id="c25p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c25p3-card"><button class="c25p3-close" id="c25p3Close" type="button" aria-label="關閉">×</button><h3>卷二十五·第三品 釋初品中十力四無所畏義 · 全景總表</h3><p class="sub">卷二十五・第三品｜核心悖論・一智十力四無畏三層・精確映射・正遍知不顛倒・數字無自性</p><table class="c25p3-tbl"><caption>一、核心悖論與體用三層架構（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心悖論</td><td>十力與四無所畏之間，是重複還是深意？——同一智慧為何要化現為兩套名相，是全品辯證的起點</td></tr><tr><td>最底層·一智</td><td>唯一本體——一切力與無畏皆從此智慧流出，無二無別</td></tr><tr><td>中層·十力</td><td>一智面對十種所知之境而成的內在儲備（The Database）——向內蓄積之名</td></tr><tr><td>上層·四無畏</td><td>一智對外宣說而成的外在應用（The Interface）——向外發用之名</td></tr><tr><td>水與器之喻</td><td>體用三層收攝為「水與器」一喻：水（智慧）不變，器（十力／四畏）隨用而異其名，體用不二</td></tr><tr><td>深層分類邏輯</td><td>四無畏可依理／果／行三層邏輯分類，非隨意排列，而各有所本</td></tr></tbody></table><table class="c25p3-tbl"><caption>二、十力對四無畏的精確映射（映射總覽）</caption><thead><tr><th>映射</th><th>內容</th></tr></thead><tbody><tr><td>映射一·真理的絕對性</td><td>第一力（是處非處智力）對應第一無畏（正知一切法無畏）——真理判斷的絕對性</td></tr><tr><td>映射二·解脫的終極性</td><td>第十力（漏盡智力）對應第二無畏（漏盡無畏）——解脫證量的終極性</td></tr><tr><td>映射三·教化的方便</td><td>其餘八力共同對應第三、四無畏（說障道法、說盡苦道）——教化眾生的善巧方便</td></tr><tr><td>三條主題</td><td>三條映射各有主題：真理（絕對性）、解脫（終極性）、教化（方便性）——非任意配對而有嚴密理路</td></tr><tr><td>無縫重疊</td><td>十力與四畏的映射並非牽強附會，而是無縫重疊——十力之細目精確收攝入四畏之綱領</td></tr></tbody></table><table class="c25p3-tbl"><caption>三、無畏根源與中觀解構（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>正遍知</td><td>無畏二字不是膽量，而是認知上的零破綻——這份底氣的根源是「正遍知」（三藐三佛陀）</td></tr><tr><td>凡夫vs佛陀</td><td>凡夫認知受限於片面感官與邏輯；佛陀之正遍知則是完全客觀、無所遺漏的實相認知</td></tr><tr><td>不顛倒</td><td>無畏必然來自完全客觀的實相認知——「不顛倒」即不被表相所惑，如實見諸法本然</td></tr><tr><td>數字假名無性</td><td>十與四這些數字本身並無自性，皆是假名施設——正因其假名無自性，才能彼此靈活轉化、體用相即</td></tr><tr><td>中道實相</td><td>以中觀空性觀之，正遍知的究竟義正是破除「有」「無」二邊的中道實相</td></tr><tr><td>總攝心法</td><td>體用流動＋無畏來自真實——面對質疑時體用相即地調用，終以「從名相回歸般若」總攝全品</td></tr></tbody></table><p class="c25p3-note">第三品直探十力與四無畏何以能「一智二名」的邏輯根柢：以「一智—十力—四無畏」三層架構，如水與器般體用不二；再以精確映射逐一指認十力如何收攝為四畏，顯出「真理、解脫、教化」三條清晰主題。最終追溯無畏之根源於<b>正遍知與不顛倒</b>，並以中觀空性解構「十」與「四」的數字自性——十力與四無畏從來不是兩堆東西，而是同一智慧的內收與外用，盡攝於緣起性空的般若之海。</p></div></div>
+<script id="wy-c25p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c25p3Btn"),BOX=document.getElementById("c25p3Box"),MODAL=document.getElementById("c25p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c25p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C25P3:END-->
 </body></html>
