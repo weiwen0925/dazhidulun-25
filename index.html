@@ -740,4 +740,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C25P3:END-->
+<!--WY-C25P4:BEGIN-->
+<style id="wy-c25p4-css">
+.c25p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c25p4-fabbox.show{display:block;}
+.c25p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c25p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c25p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c25p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c25p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c25p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c25p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c25p4-modal.open{display:flex;}
+.c25p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c25p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c25p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c25p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c25p4-close:hover{background:#e3d5b8;}
+.c25p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c25p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c25p4-tbl th,.c25p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c25p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c25p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c25p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c25p4-tbl b{color:#8b2500;}
+.c25p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c25p4-note b{color:#8b2500;}
+@media(max-width:900px){.c25p4-fabbox{right:14px;}.c25p4-tbl{font-size:11.5px;}.c25p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c25p4-fabbox" id="c25p4Box"><button class="c25p4-btn" id="c25p4Btn" type="button" aria-label="開啟全景總表"><span class="c25p4-ic">▦</span><span class="c25p4-ls"><span class="c25p4-l1">本品 · 佛法無畏</span><span class="c25p4-l2">阿梨沙住處論 · 畢竟空拆解畏相陷阱</span></span></button></div><div class="c25p4-modal" id="c25p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c25p4-card"><button class="c25p4-close" id="c25p4Close" type="button" aria-label="關閉">×</button><h3>卷二十五·第四品 佛法無畏 · 聖主阿梨沙住處論 · 全景總表</h3><p class="sub">卷二十五・第四品｜挑戰者矩陣・不見微畏相・畢竟空・漏與障道法・阿梨沙四因・轉法輪</p><table class="c25p4-tbl"><caption>一、挑戰者矩陣與詰難陷阱（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>挑戰情境</td><td>若有人說「是法不知」——宣稱佛陀並非真正的全知者，此為本品開宗明義設下的極端情境</td></tr><tr><td>挑戰者矩陣</td><td>逐一列出誰有資格質問佛陀，並歸納詰難可落入的四大範疇——一切疑問皆落入其中</td></tr><tr><td>雙頭陷阱本質</td><td>外道的詰難其實是一個雙頭陷阱——不論佛怎麼答都想逼出破綻，如法求難者終將全部落空</td></tr><tr><td>邏輯轉折</td><td>佛以一句「我不見小小因緣如法能來破我者」完成邏輯轉折，把「相」直接定義為「因緣」</td></tr><tr><td>畢竟空拆解</td><td>中觀「畢竟空」徹底拆解此陷阱——因緣本空，故無靶可尋，這支詰難之箭無靶可射</td></tr><tr><td>無畏來源</td><td>佛之所以無畏，不是因為祂能逐一答完所有問題，而是因為祂看穿了「畏相」本身的虛妄</td></tr></tbody></table><table class="c25p4-tbl"><caption>二、漏盡與障道法的精準定義（第二支柱）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>漏之定義</td><td>漏即煩惱的流注——凡有煩惱牽引流轉者皆屬漏</td></tr><tr><td>障道法極致定義</td><td>即使是善法，只要動機是「為世間故」、執著於福報，依然判為障道法——連善法執著都不例外</td></tr><tr><td>諸家之道統一</td><td>佛教內外諸家所說之「道」，最終皆統一於「無漏」而導向涅槃，非各自獨立</td></tr><tr><td>震撼判準</td><td>此判準震撼之處在於：清淨與否不在行為表相，而在動機是否執著世間福報</td></tr><tr><td>二大支柱</td><td>畢竟空（破畏相）與漏盡／障道的精準界定，共同構成佛陀無畏的兩大支柱</td></tr></tbody></table><table class="c25p4-tbl"><caption>三、阿梨沙住處的安立四因（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>阿梨沙語意</td><td>阿梨沙具七重內涵——正面回答「何以故佛至誠言安立阿梨沙住處」之問</td></tr><tr><td>安立四因</td><td>自利利他具足＋滅二惡得第一清淨＋轉法輪＋斷疑無畏——四因環環相扣，共同界定「聖主」這一結構性位置</td></tr><tr><td>邏輯公式</td><td>自利 ∩ 利他 ＝ 阿梨沙——唯有自利與利他的交集，方能安立此聖主住處</td></tr><tr><td>轉法輪</td><td>三轉十二行——安立阿梨沙住處的具體實踐內容之一</td></tr><tr><td>三大記憶錨點</td><td>諸法畢竟空、破除法執、二諦相即——收攝全品義理為可隨身攜帶的記憶錨點</td></tr><tr><td>結語座標</td><td>智慧與慈悲的座標——在阿梨沙這個位置上，沒有任何因緣能成為恐懼的相</td></tr></tbody></table><p class="c25p4-note">第四品以一場思想實驗攻防戰展開：外道設下「挑戰者矩陣」與雙頭陷阱，企圖逼問佛陀之全知；佛以「相即因緣」的邏輯轉折，結合中觀<b>畢竟空</b>，使詰難之箭無靶可射。進而以「漏盡」與「障道法」的精準定義——連善法執著亦判為障——確立無畏的第二支柱。終以「阿梨沙」四因（自利利他、滅二惡、轉法輪、斷疑無畏）安立聖主住處：在畢竟空與二諦相即之中，沒有任何因緣能成為恐懼的相。</p></div></div>
+<script id="wy-c25p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c25p4Btn"),BOX=document.getElementById("c25p4Box"),MODAL=document.getElementById("c25p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c25p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C25P4:END-->
 </body></html>
