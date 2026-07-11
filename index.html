@@ -1520,4 +1520,53 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH25P2:END-->
+<!--WY-BH25P3:BEGIN-->
+<style id="wy-bh25p3-css">
+.bh25p3-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh25p3-fabbox.show{display:block;}
+.bh25p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh25p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh25p3-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh25p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh25p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh25p3-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh25p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh25p3-modal.open{display:flex;}
+.bh25p3-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh25p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh25p3-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh25p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh25p3-close:hover{background:#dde2e6;}
+.bh25p3-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh25p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh25p3-tbl th,.bh25p3-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh25p3-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh25p3-tbl thead th:nth-child(1){width:32%;}.bh25p3-tbl thead th:nth-child(2){width:41%;}.bh25p3-tbl thead th:nth-child(3){width:27%;}
+.bh25p3-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh25p3-guan{background:#eef2f5;color:#37505f;}
+.bh25p3-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh25p3-tbl tbody tr:nth-child(even) td.bh25p3-guan{background:#e8eef2;}
+.bh25p3-tbl b{color:#8b2500;}
+.bh25p3-guan b{color:#2f6b5a;}
+.bh25p3-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh25p3-note b{color:#8b2500;}
+@media(max-width:900px){.bh25p3-fabbox{right:14px;}.bh25p3-tbl{font-size:11px;}.bh25p3-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh25p3-fabbox" id="bh25p3Box"><button class="bh25p3-btn" id="bh25p3Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh25p3-ic">譯</span><span class="bh25p3-ls"><span class="bh25p3-l1">本品 · 原文·白話·中觀</span><span class="bh25p3-l2">白話翻譯表</span></span></button></div><div class="bh25p3-modal" id="bh25p3Modal" role="dialog" aria-modal="true"><div class="bh25p3-card"><button class="bh25p3-close" id="bh25p3Close" type="button" aria-label="關閉">×</button><h3>卷二十五 · 第3品 白話翻譯表（十力四無畏之辨·正遍知）</h3><p class="sub">大智度論卷二十五·釋初品中十力四無所畏義 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh25p3-tbl"><caption>十力四無畏之辨·正遍知 · 原文｜白話翻譯｜中觀概念（共3段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh25p3-src">問曰：佛十力中有無所畏不？若有無所畏，不應但言四；若有所畏，云何言無畏成就？</td><td>問：佛的十力之中，究竟有沒有包含「無所畏」呢？如果十力之中已經有無所畏，就不應該只說「四」無所畏；但如果十力之中沒有無所畏，又怎麼能說十力已經圓滿成就了無畏呢？</td><td class="bh25p3-guan"><b>十力四畏是否重複（設問）</b>——此問直指全品核心悖論：十力與四無畏若是同一內容，重複列出便顯得贅餘；若非同一內容，則十力本身反而顯得有所欠缺（尚缺無畏）。此二難迫使論主必須釐清十力與四無畏的關係。</td></tr><tr><td class="bh25p3-src">答曰：一智在十處，名為佛成就十力；如一人知十事，隨事受名。是十力，四處出用，是無所畏：是處不是處力、漏盡力，即是初、二無畏；八力雖廣說，是第三、第四無畏。以是故，十力中雖有無畏，別說亦無失。</td><td>答：其實只是同一種智慧，運用在十個不同的處所，就稱為佛成就了十力；就像同一個人通曉十件事情，會隨著所做的事而有不同的稱呼一樣。而這十力當中，有四個地方發揮出「無畏」的作用：其中「是處不是處力」與「漏盡力」，就相當於第一、第二無畏；其餘八力雖然是廣說，但總合起來相當於第三、第四無畏。因此，十力之中雖然本來就含有無畏，另外再分別宣說「四無畏」，也不算有過失或重複。</td><td class="bh25p3-guan"><b>一智隨用受名·非重複非矛盾</b>——十力與四無畏「同出一智，隨用立名」，猶如中觀「一法多名」之理：同一畢竟空的般若智，隨因緣、隨所對治而施設種種名相（十力、四無畏、十八不共法等），名相雖異、實相不二；執著名相數目的多寡而生疑，正是未見「假名」與「實相」之間本無定量對應關係。</td></tr><tr><td class="bh25p3-src">正遍知者，知一切法不顛倒，正、不邪，如餘過去諸佛，是名三藐三佛陀。如佛告阿難：「一切世間天及人所不能知，佛能遍知故，名三藐三佛陀。」</td><td>所謂「正遍知」，是指了知一切法而不顛倒錯亂，正確而不偏邪，如同過去一切諸佛一樣，這就叫做「三藐三佛陀」（正等正覺）。就像佛告訴阿難說：「一切世間的天人都無法了知的事，佛都能夠遍知，所以稱為三藐三佛陀。」</td><td class="bh25p3-guan"><b>正遍知即不顛倒見實相</b>——「不顛倒」是關鍵：凡夫認知常顛倒於常樂我淨的執取，佛之遍知在於如實照見諸法無常、無我、緣起性空的實相；「正遍知」與四無畏中的「一切智無畏」正是同一體證的不同側面，呼應本品「十力四畏同源」的結論。</td></tr></tbody></table><p class="bh25p3-note">卷二十五第3品「十力與四無畏之辨」原文·白話·中觀三欄對照。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh25p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh25p3Btn"),BOX=document.getElementById("bh25p3Box"),MODAL=document.getElementById("bh25p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+/*BHPLACE*/function place(){var cands=[document.getElementById("c25p3Box")],eb=document.querySelector(".wy-ebox");if(eb)cands.push(eb);var best=null;for(var i=0;i<cands.length;i++){var el=cands[i];if(!el)continue;var cs=getComputedStyle(el);if(cs.display==="none")continue;var r=el.getBoundingClientRect();if(r.height<=4)continue;var v=Math.round(window.innerHeight-r.top)+8;if(best===null||v>best)best=v;}if(best!==null)BOX.style.bottom=best+"px";}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh25p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH25P3:END-->
 </body></html>
